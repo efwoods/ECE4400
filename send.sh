@@ -1,4 +1,4 @@
-#SSH ALIASES
+#SSH COMMANDS
 p1="ssh rrojas@pc3.instageni.stanford.edu -p 25011 -i ~/.ssh/id_geni2"
 p2="ssh rrojas@pc3.instageni.stanford.edu -p 25014 -i ~/.ssh/id_geni2"
 p3="ssh rrojas@pc3.instageni.stanford.edu -p 25015 -i ~/.ssh/id_geni2"
