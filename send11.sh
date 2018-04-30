@@ -15,17 +15,17 @@ dv="ssh rrojas@pc3.instageni.stanford.edu -p 25010 -i ~/.ssh/id_geni2"
 watson="ssh rrojas@pc2.instageni.stanford.edu -p 25013 -i ~/.ssh/id_geni2"
 dabo="ssh rrojas@pc2.instageni.stanford.edu -p 25010 -i ~/.ssh/id_geni2"
 
-#PASSWORD
+BW="8750k"
+IP="10.0.0.13"
+$p1 "iperf -c $IP -b $BW" &
+$p2 "iperf -c $IP -b $BW" &
+$p3 "iperf -c $IP -b $BW" &
+$p4 "iperf -c $IP -b $BW" &
+$p5 "iperf -c $IP -b $BW" &
+$p6 "iperf -c $IP -b $BW" &
+$p7 "iperf -c $IP -b $BW" &
+$p8 "iperf -c $IP -b $BW" &
+$p9 "iperf -c $IP -b $BW" &
+$p10 "iperf -c $IP -b $BW" &
+$p11 "iperf -c $IP -b $BW"
 
-$p1 './go.sh' &
-$p2 './go.sh' &
-$p3 './go.sh' &
-$p4 './go.sh' &
-$p5 './go.sh' &
-$p6 './go.sh' &
-$p7 './go.sh' &
-$p8 './go.sh' &
-$p9 './go.sh' &
-$p10 './go.sh' &
-$p11 './go.sh' & 
-$p12 './go.sh' 
